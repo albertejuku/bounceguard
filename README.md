@@ -28,7 +28,7 @@ campaign before it costs you the account.
 ## Install
 
 ```sh
-npm install github:eikal-ke/bounceguard
+npm install github:albertejuku/bounceguard
 ```
 
 ## Quick start
@@ -279,9 +279,9 @@ Without `smtp.from`, bounceguard checks everything except the mailbox itself, an
 ## Command line
 
 ```sh
-npx github:eikal-ke/bounceguard jane@gmial.com ghost@example.org
-npx github:eikal-ke/bounceguard --from verify@yourdomain.com --file signups.csv
-npx github:eikal-ke/bounceguard --json someone@example.com
+npx github:albertejuku/bounceguard jane@gmial.com ghost@example.org
+npx github:albertejuku/bounceguard --from verify@yourdomain.com --file signups.csv
+npx github:albertejuku/bounceguard --json someone@example.com
 ```
 
 ```

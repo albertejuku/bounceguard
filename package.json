@@ -53,10 +53,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/eikal-ke/bounceguard.git"
+    "url": "git+https://github.com/albertejuku/bounceguard.git"
   },
   "bugs": {
-    "url": "https://github.com/eikal-ke/bounceguard/issues"
+    "url": "https://github.com/albertejuku/bounceguard/issues"
   },
-  "homepage": "https://github.com/eikal-ke/bounceguard#readme"
+  "homepage": "https://github.com/albertejuku/bounceguard#readme"
 }
