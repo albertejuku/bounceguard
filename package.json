@@ -1,0 +1,62 @@
+{
+  "name": "bounceguard",
+  "version": "0.1.0",
+  "description": "Keep email bounces near zero: verify addresses before sending (syntax, typos, throwaway domains, MX, SMTP mailbox and catch-all checks), learn from bounce and complaint webhooks, keep a suppression list, and pause sending before your provider pauses you. Zero dependencies.",
+  "type": "module",
+  "main": "./src/index.js",
+  "types": "./index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "default": "./src/index.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "bin": {
+    "bounceguard": "bin/bounceguard.js"
+  },
+  "files": [
+    "src",
+    "bin",
+    "index.d.ts",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.js"
+  },
+  "keywords": [
+    "email",
+    "email-verification",
+    "email-validation",
+    "bounce",
+    "bounce-rate",
+    "deliverability",
+    "suppression-list",
+    "smtp",
+    "mx",
+    "catch-all",
+    "disposable-email",
+    "ses",
+    "sns",
+    "sendgrid",
+    "mailgun",
+    "postmark",
+    "resend",
+    "zeptomail",
+    "webhook"
+  ],
+  "author": "Eikal Limited",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eikal-ke/bounceguard.git"
+  },
+  "bugs": {
+    "url": "https://github.com/eikal-ke/bounceguard/issues"
+  },
+  "homepage": "https://github.com/eikal-ke/bounceguard#readme"
+}

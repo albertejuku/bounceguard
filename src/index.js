@@ -1,0 +1,12 @@
+export { BounceGuard, createGuard, DEFAULT_RECHECK } from './guard.js';
+export { MemoryStore } from './store.js';
+export { Reputation } from './reputation.js';
+export { Limiter } from './limiter.js';
+export { parseAddress, isValidSyntax } from './syntax.js';
+export { suggestDomain, repairDomain, isFreeProvider, editDistance, FREE_PROVIDERS } from './typos.js';
+export { isDisposableDomain, DISPOSABLE_DOMAINS } from './disposable.js';
+export { isRoleAddress, ROLE_NAMES } from './roles.js';
+export { lookupMail, createResolver } from './dns.js';
+export { probeMailboxes } from './smtp.js';
+export { classifyReply } from './classify.js';
+export * as webhooks from './webhooks/index.js';
